@@ -1,0 +1,17 @@
+{
+  "name": "next-param-routing-example",
+  "private": true,
+  "scripts": {
+    "dev": "node src/server.js",
+    "build": "next build src",
+    "start": "NODE_ENV=production node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "next": "^4.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "urijs": "^1.19.0",
+    "webpack": "^3.10.0"
+  }
+}
